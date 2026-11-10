@@ -1,0 +1,13 @@
+{
+  "name": "annon-ai-office-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ANNON AI OFFICE - ANON scoped executive briefing MVP",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --experimental-sqlite src/server.mjs",
+    "dev": "node --experimental-sqlite --watch src/server.mjs",
+    "test": "node --experimental-sqlite --test tests/*.test.mjs"
+  }
+}
